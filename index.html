@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de articulos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="text-center">Agregar lista</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-5 mt-2">
+                <input type="text" class="form-control" id="item" name="item" placeholder="Escribir articulo a comprar">
+            </div>
+            <div class="col-5 mt-2">
+                <input type="text" class="form-control" id="cantidad" name="cantidad" placeholder="Escribir cantidad del articulo a comprar">
+            </div>
+            <div class="col-2 mt-2">
+                <button type="button" class="btn btn-info" onclick="addItems();">Agregar</button>
+            </div>
+            <div class="col-12 mt-5">
+                <h2>Lista articulos agregados</h2>
+                <div id="listado" class="row">
+                    No hay elementos
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="./js/javascript.js"></script>
+</body>
+
+</html>
